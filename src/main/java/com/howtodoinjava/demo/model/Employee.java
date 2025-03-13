@@ -40,6 +40,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return new StringBuilder("Employee {id=").append(id).append(", name=").append(name).append(", salary=").append(salary).append("]").toString();
+		return new StringBuilder("Employee {id=").append(id).append(", name=").append(name).append(", salary=")
+				.append(salary).append("}").toString();
 	}
 }
